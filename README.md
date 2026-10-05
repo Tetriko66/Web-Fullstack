@@ -1,34 +1,69 @@
-# 🏫 Proyecto - TecnoCollab
+# 🎮 Proyecto - LevelUp
 
-Este repositorio corresponde al proyecto universitario **TecnoCollab**, desarrollado como parte de la asignatura de desarrollo web.  
-El objetivo es construir un sitio de ecommerce que refleje la importancia de la colaboración tecnológica y la accesibilidad en plataformas digitales.
+Este repositorio corresponde al proyecto universitario **LevelUp**, desarrollado para la asignatura de Desarrollo Fullstack II.
 
-## 🎯 Objetivos del proyecto
-- Aplicar conocimientos de **HTML, CSS, Bootstrap y JavaScript** en un caso práctico.  
-- Diseñar una página web responsiva con navegación clara y moderna.  
-- Explicar el motivo y razón de ser del ecommerce en una sección dedicada ("Nosotros").  
-- Integrar recursos multimedia (video, imágenes, íconos) para enriquecer la experiencia del usuario.  
+El objetivo es construir una tienda online de productos tecnológicos y de computación, con una estética futurista. El proyecto incluye dos versiones: una desarrollada con HTML, CSS, Bootstrap y JavaScript, y otra desarrollada con Next.js.
 
-## 📂 Estructura del repositorio
-- **index.html** → Página principal con navbar, video y bienvenida.  
-- **span.css** → Estilos personalizados.  
-- **Extension** → Pagina ligada al boton "Nosotros".  
-- **funciones.js** → Funciones JavaScript para validaciones y lógica.  
-- **/assets** → Carpeta de imágenes y recursos multimedia.  
+## 🎯 Funcionalidades principales
+
+- Navegación entre distintas páginas del sitio.
+- Catálogo de productos tecnológicos.
+- Buscador de productos con JavaScript.
+- Formulario de contacto con validaciones.
+- Página de sucursal con mapa y horarios.
+- Diseño responsivo utilizando Bootstrap.
+- Estilos personalizados mediante CSS externo.
+- Barra de navegación con el logo de LevelUp.
+
+## 📁 Estructura del repositorio
+
+- **Paginahtml/** → Versión del proyecto en HTML, CSS, Bootstrap y JavaScript.
+- **proyectonext/** → Versión del proyecto desarrollada con Next.js.
+
+### 📄 Archivos de la versión HTML
+
+- **TIENDA.html** → Página principal y catálogo de productos.
+- **Nosotros.html** → Información sobre LevelUp.
+- **Sucursal.html** → Dirección, horarios y mapa de la sucursal.
+- **Contacto.html** → Formulario de contacto.
 
 ## 🛠️ Tecnologías utilizadas
-- [HTML5](ca://s?q=HTML5_basico)  
-- [CSS3](ca://s?q=CSS3_basico)  
-- [Bootstrap 5](ca://s?q=Bootstrap_5_basico)  
-- [JavaScript](ca://s?q=JavaScript_basico)
 
-## 📖 Cómo ejecutar
-1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/Tetriko66/Pagina-web.git
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Next.js
+- React
 
-## 👥 Autores
-Vicente Rodríguez
-Sebastián Valderrama
+## 🚀 Cómo ejecutar el proyecto
 
-© 2026 TecnoCollab
+### Versión HTML
+
+No requiere instalación. Clona el repositorio y abre `TIENDA.html` en tu navegador:
+
+```bash
+git clone https://github.com/Tetriko66/Pagina-web.git
+cd Pagina-web/Paginahtml
+```
+
+### Versión Next.js
+
+Requiere [Node.js](https://nodejs.org/) instalado:
+
+```bash
+git clone https://github.com/Tetriko66/Pagina-web.git
+cd Pagina-web/proyectonext
+npm install
+npm run dev
+```
+
+Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## 🎨 Identidad visual
+
+El logo de LevelUp combina un chip de procesador de estilo imperial con una tipografía tecnológica. Los colores principales son negro, gris acero, blanco y rojo.
+
+## 👤 Autor
+
+Desarrollado por [Tetriko66](https://github.com/Tetriko66).
