@@ -1,17 +1,15 @@
-import mifoto from './IMG_20241102_145033.jpg';
-import './App.css';
-import CustomNav from './CustomNav';
+import CustomNav from './components/customnav/CustomNav';
+import Hero from './components/Hero/Hero.js'; // También para agregar el Hero
+import Catalogo from './components/catalogo/catalogo.js';
+import Footer from './components/Footer/footer.js';
 
 function App() {
   return (
     <div className="App">
-      <CustomNav></CustomNav>
-      <header className="App-header">
-        <p>
-          {'Portafolio de Presentacion Vicente Rodriguez Y.'} 
-        </p>
-
-      </header>
+      <CustomNav />
+      <Hero />
+      <Catalogo />
+      <Footer  />
     </div>
   );
 }
