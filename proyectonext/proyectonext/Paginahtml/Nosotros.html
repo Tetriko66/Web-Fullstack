@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Soporta acentos y ñ -->
+    <meta charset="UTF-8">
+    <title>Nosotros</title>
+
+    <!-- Conecta con css para personalizar diseños -->
+    <link rel="stylesheet" href="span.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <!--Contenedor que ocupa todo el ancho-->
+        <div class="container-fluid">
+
+            <!--Nombre o logo del sitio-->
+            <a class="navbar-brand" href="TIENDA.html">
+                <img src="https://scontent-scl3-1.xx.fbcdn.net/v/t1.15752-9/792403671_2229745870920506_6433620883171959035_n.png?stp=dst-png_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_ohc=xjh6nu9JmPcQ7kNvwEQSIlR&_nc_oc=AdqPSvcDhOc1YusN3bd9NXGfSBibRZ-5IBMyjrT6nliE5YyuhgzDF14h5gK6Nyvbuyp_xhm8qWXR0MsAboe_FfQd&_nc_zt=23&_nc_ht=scontent-scl3-1.xx&_nc_ss=7b6a8&oh=03_Q7cD6QFWXMJJc-Go1P8YEdKS-33kVpb-ACWfBstZJMFlC1_9HA&oe=6A9ECE80"
+                     alt="Logo" 
+                     width="45" 
+                     height="45"
+                     class="d-inline-block align-text-center">
+                <strong>LevelUp</strong>
+            </a>
+            <!--boton que aparece en la pagina para desplegar el menu-->
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+
+                <!--Icono del boton de hamburguesa(≡)-->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--Contenedor que abre y cierra en pantallas pequeñas-->
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    
+                    <!--Lista de enlaces al menu-->
+                    <ul class="navbar-nav mx-auto d-flex flex-row">
+
+                        <!--Opciones-->
+                        <li class="nav-item mx-2">  
+                            <a class="nav-link active" 
+                               href="TIENDA.html">Home</a></li>
+
+                        <li class="nav-item mx-2">  
+                            <a class="nav-link " 
+                               href="Nosotros.html">Nosotros</a></li>
+
+                        <li class="nav-item mx-2">  
+                            <a class="nav-link " 
+                               href="Sucursal.html">Sucursal</a></li>
+
+                        <li class="nav-item dropdown">
+                    
+                            <!--Enlace dentro de cada opcion-->
+                            <a class="nav-link dropdown-toggle" 
+                               href="#" role="button"
+                               data-bs-toggle="dropdown" 
+                               aria-expanded="false">Mas</a>
+
+                            <!--Menu desplegable con mas opciones--> 
+                            <ul class="dropdown-menu">
+                                <a class="dropdown-item" href="Contacto.html">Contacto</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <!-- Sección principal -->
+    <section id="nosotros" class="container mt-5">
+        <div class="row align-item-center">
+            <div class="col-md-6">
+                <h1 class="text-center mb-4">Nosotros</h1>
+                <h3>Nuestra mision y valores</h3>
+                <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                    En <strong>LevelUp</strong>, nos enorgullecemos de la pasión con la que ejecutamos nuestros proyectos.
+                    Nuestra misión es ser una empresa innovadora, segura, ágil y cercana al cliente.
+                </p>
+                <p style="font-size: 16px; line-height: 1.6; color: #333;">
+                    Nuestra visión fundamental es buscar la mejora continua, el compromiso con la ética y la excelencia en el servicio al cliente.
+                    Queremos ser una empresa que crece y evoluciona para crear relaciones de largo plazo, construyendo una marca basada en la confianza.
+                </p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="https://idesaa.edu.mx/blog/wp-content/uploads/2020/02/beneficios-trabajo-en-equipo-1000x666.jpg"
+                     alt="Trabajo en equipo"
+                     class="img-fluid rounded shadow">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="Creador" class="footer mt-5">
+        <small>©2026 LevelUp - Proyecto universitario</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS personalizado -->
+    <script src="funciones.js"></script>
+</body>
+</html>

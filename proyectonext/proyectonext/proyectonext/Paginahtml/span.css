@@ -1,0 +1,230 @@
+/* ===== NAVBAR ===== */
+.navbar {
+    background-color: #000000; /* negro gamer */
+    font-size: 16px;           /* tamaño de texto */
+    letter-spacing: 1px;       /* espacio entre letras */
+}
+
+.navbar .nav-link {
+    color: #FFFFFF;            /* texto blanco */
+    transition: 0.3s;          /* tiempo de respuesta del mouse */
+}
+
+.navbar .nav-link:hover {
+    color: #1E90FF;            /* azul eléctrico en hover */
+}
+
+.navbar .nav-link.active {
+    color: #FFFFFF;            /* Home igual que el resto */
+}
+
+.navbar-nav .nav-item {
+    display: inline-flex;       /* mantiene enlace y separador en línea */
+    align-items: center;        /* centra verticalmente */
+}
+
+.navbar-nav .nav-item:not(:last-child)::after {
+    display: inline-block;
+    content: "|"; 
+    color: #FFFFFF;             /* separador blanco */
+    margin: 0 8px;
+}
+
+.navbar .nav-brand {
+    margin: auto;
+}
+
+/* ===== DROPDOWN ===== */
+.dropdown-menu {
+    background-color: #000000;  /* fondo negro */
+    border-radius: 5px;    
+}
+
+.dropdown-menu .dropdown-item {
+    color: #000000;             /* texto blanco */
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #39FF14;  /* verde neón en hover */
+    color: #000000;             /* texto negro para contraste */
+}
+
+/* ===== FORMULARIO DE BÚSQUEDA ===== */
+.formulario input {
+    border-radius: 5px;         /* bordes redondeados */
+}
+
+.formulario button {
+    font-weight: bold; 
+}
+
+/* ===== LAYOUT GENERAL ===== */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* ===== HERO ===== */
+#Hero {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+
+#Hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #1E90FF;             /* azul eléctrico */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#Hero h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #D3D3D3;             /* gris claro */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 16px;
+}
+
+.btn-landing {
+    background-color: #39FF14;  /* verde neón */
+    color: #000000;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-landing:hover {
+    background-color: #1E90FF;  /* azul eléctrico en hover */
+    color: #FFFFFF;
+    box-shadow: 0 0 15px #1E90FF; /* glow gamer */
+}
+
+#Hero img {
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px #1E90FF;
+}
+
+/* ===== EXTRACTO ===== */
+#extracto {
+    text-align: right;
+    margin-top: auto;
+}
+
+#extracto p {
+    font-size: 18px;
+    color: #D3D3D3;             /* gris claro */
+}
+
+#extracto img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* ===== SUCURSAL ===== */
+.info-sucursal p {
+    margin-bottom: 8px;
+}
+
+.info-sucursal h2, 
+.info-sucursal h3 {
+    margin: 10px 0 15px 0;
+}
+
+/* ===== FORMULARIO DE CONTACTO ===== */
+.formulario-contacto {
+    max-width: 650px;
+    margin: 30px auto;
+    border: 2px solid #333;
+    background-color: #eeeeee;
+    padding: 25px;
+}
+
+.titulo-contacto {
+    text-align: center;
+    background-color: #cccccc;
+    padding: 12px;
+    margin: -25px -25px 25px -25px;
+    font-size: 18px;
+}
+
+.formulario-contacto label {
+    font-size: 12px;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+    border: 2px solid #333;
+    border-radius: 0;
+}
+
+.formulario-contacto button {
+    margin-top: 15px;
+    padding: 15px 45px;
+    border: 2px solid #333;
+    border-radius: 0;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #000000;  /* fondo negro gamer */
+    color: #FFFFFF;             /* texto principal blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin-bottom: 5px;
+    color: #D3D3D3;             /* gris claro */
+    transition: 0.3s;
+}
+
+.footer li:hover {
+    color: #1E90FF;             /* azul eléctrico en hover */
+}
+
+.footer small {
+    color: #FFFFFF;             /* copyright */
+}
+
+/* ===== VIDEO ===== */
+#video iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 0 20px #1E90FF;
+    transform: scale(1.02);
+}

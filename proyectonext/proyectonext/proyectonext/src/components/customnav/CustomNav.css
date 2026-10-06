@@ -1,0 +1,19 @@
+.navbar-imperio{
+    background-color: #1c3660;
+}
+
+.navbar-imperio .navbar-brand,
+.navbar-imperio .nav-link {
+  color: #f8fafc ;
+  font-weight: 600  ;
+  letter-spacing: 1px;
+}
+
+.navbar-imperio .nav-link:hover {
+  color: #1c92bd ;
+}
+
+.dropdown-menu{
+    background-color: #1c355e;
+    border-radius: 5px;    
+}

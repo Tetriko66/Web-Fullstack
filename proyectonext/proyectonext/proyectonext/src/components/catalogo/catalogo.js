@@ -1,5 +1,4 @@
 import React from 'react';
-import "./catalogo.css"
 
 function Catalogo() {
   return (
@@ -43,7 +42,7 @@ function Catalogo() {
         <div className="col-md-4 mb-4">
           <div className="card h-100 shadow">
             <img
-              src="https://static.myshop.cl/myshop/fotos/2/8/2/9/4/d5_1789163023000.webp"
+              src="https://assets.pcfactory.cl/public/foto/56531/1_500.jpg?t=1785911084421"
               className="card-img-top p-3"
               alt="Asus NVIDIA Dual GeForce RTX 3050"
             />
@@ -77,13 +76,13 @@ function Catalogo() {
         <div className="col-md-4 mb-4">
           <div className="card h-100 shadow">
             <img
-              src="https://media.falabella.com/falabellaCL/153463271_03/w=1200,h=1200,fit=pad"
+              src="https://assets.pcfactory.cl/public/foto/56578/6_500.jpg?t=1779223903742"
               className="card-img-top p-3"
               alt="Gigabyte Fuente de poder 650W"
             />
             <div className="card-body d-flex flex-column">
               <h5 className="card-title">
-                MSI® Fuente de poder MSI MAG A650BN 650Watt 80+ Bronze
+                Gigabyte® Fuente de poder 650W 80 Plus Gold
               </h5>
               <p className="card-text text-muted">
                 ID: 35698 | Disponibilidad: +100 Unid.
