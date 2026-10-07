@@ -1,0 +1,64 @@
+/* Contenedor principal del cuadro */
+.formulario-contacto {
+  max-width: 650px;
+  background-color: #ececec;
+  border: 2px solid #222222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Franja superior con el título */
+.header-contacto {
+  background-color: #d6d6d6;
+  border-bottom: 2px solid #222222;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.header-contacto h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222222;
+  letter-spacing: 0.5px;
+}
+
+/* Padding interno del formulario */
+.body-contacto {
+  padding: 30px 40px;
+}
+
+.body-contacto .form-label {
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #333333;
+  margin-bottom: 6px;
+}
+
+/* Inputs y Textarea con marco negro marcado */
+.custom-input {
+  background-color: #ffffff;
+  border: 1.5px solid #222222;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.custom-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.15);
+}
+
+/* Estilo del botón centrado */
+.btn-custom {
+  background-color: #f8f9fa;
+  border: 1.5px solid #222222;
+  color: #000000;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 0;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #222222;
+  color: #ffffff;
+}
