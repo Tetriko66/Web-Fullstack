@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import CustomNav from '../components/customnav/CustomNav';
@@ -10,27 +10,33 @@ import Sucursal from './Sucursal';
 import Contacto from './Contacto';
 
 
-function Home() {
+function Home({ busqueda }) {
   return (
     <>
       <Hero />
-      <Catalogo />
+      <Catalogo busqueda={busqueda} />
     </>
   );
 }
 
 function App() {
+  const [busqueda, setBusqueda] = useState('');
+
   return (
-    <div className="App">
-      <CustomNav />
+  <div className="App">
+    <CustomNav onBuscar={setBusqueda} />
+
+    <main className="contenido-principal">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home busqueda={busqueda} />} />
         <Route path="/nosotros" element={<Nosotros />} />
         <Route path="/Sucursal" element={<Sucursal />} />
         <Route path="/Contacto" element={<Contacto />} />
       </Routes>
-      <Footer />
-    </div>
+    </main>
+
+    <Footer />
+  </div>
   );
 }
 

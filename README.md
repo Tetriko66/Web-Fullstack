@@ -53,7 +53,7 @@ Requiere [Node.js](https://nodejs.org/) instalado:
 
 ```bash
 git clone https://github.com/Tetriko66/Pagina-web.git
-cd Pagina-web/proyectonext
+cd Pagina-web/proyecto
 npm install
 npm run dev
 ```

@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import logo from '../../asset/watermarked_img_7179342786634952262.jpg';
 import './CustomNav.css';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate} from 'react-router-dom';
 
-function CustomNav() {
+function CustomNav({ onBuscar }) {
+  const [termino, setTermino] = useState('');
+  const navigate = useNavigate();
+
+  function checkear_formulario(event) {
+    event.preventDefault();
+    onBuscar(termino.toLowerCase().trim());
+    navigate('/');
+  }
+
   return (
     <Navbar expand='lg' className='navbar-imperio' data-bs-theme="dark">
       <Container fluid className='ps-2'>
@@ -26,6 +35,24 @@ function CustomNav() {
               <NavDropdown.Item as={Link} to='/Contacto'>Contacto</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+        <form
+        className="d-flex gap-2"
+        role="search"
+        onSubmit={checkear_formulario}>
+        <input
+        id="buscador"
+        type="search"
+        className="form-control"
+        placeholder="Buscar productos"
+        aria-label="Buscar productos"
+        value={termino}
+        onChange={(event) => setTermino(event.target.value)}/>
+
+        <button type="submit" className="btn btn-outline-light">
+        Buscar
+        </button>
+        </form>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>
