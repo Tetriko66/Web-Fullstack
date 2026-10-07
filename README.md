@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎮 Proyecto - LevelUp
 
 Este repositorio corresponde al proyecto universitario **LevelUp**, desarrollado para la asignatura de Desarrollo Fullstack II.
@@ -61,13 +60,3 @@ npm run dev
 
 Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## 🎨 Identidad visual
-
-El logo de LevelUp combina un chip de procesador de estilo imperial con una tipografía tecnológica. Los colores principales son negro, gris acero, blanco y rojo.
-
-## 👤 Autor
-
-Desarrollado por [Tetriko66](https://github.com/Tetriko66).
-=======
-# Web-Fullstack
->>>>>>> 6a97506b4f81d7fd612d107c5e002df9156dc2e3
