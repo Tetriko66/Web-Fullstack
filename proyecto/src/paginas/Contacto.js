@@ -3,7 +3,7 @@ import logo from '../asset/watermarked_img_7179342786634952262.jpg';
 import './Contacto.css'; // Importante: importar los estilos
 
 function Contacto() {
-    {/* Misma Validación del formulario de html */}
+    /* Misma Validación del formulario de html */
     const [formulario, setFormulario] = useState({ nombre: '', correo: '', mensaje: '' });
     const [errores, setErrores] = useState({});
     const [resultado, setResultado] = useState('');
