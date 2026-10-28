@@ -1,62 +1,39 @@
-# 🎮 Proyecto - LevelUp
+# 🚀 Portafolio de Proyectos Web Fullstack
 
-Este repositorio corresponde al proyecto universitario **LevelUp**, desarrollado para la asignatura de Desarrollo Fullstack II.
+Repositorio que recopila las evaluaciones formativas y proyectos de desarrollo web, abarcando desde maquetación estática hasta aplicaciones interactivas modernas con React y Vite.
 
-El objetivo es construir una tienda online de productos tecnológicos y de computación, con una estética futurista. El proyecto incluye dos versiones: una desarrollada con HTML, CSS, Bootstrap y JavaScript, y otra desarrollada con Next.js.
+---
 
-## 🎯 Funcionalidades principales
+## 📂 Contenido del Repositorio
 
-- Navegación entre distintas páginas del sitio.
-- Catálogo de productos tecnológicos.
-- Buscador de productos con JavaScript.
-- Formulario de contacto con validaciones.
-- Página de sucursal con mapa y horarios.
-- Diseño responsivo utilizando Bootstrap.
-- Estilos personalizados mediante CSS externo.
-- Barra de navegación con el logo de LevelUp.
+El repositorio se encuentra estructurado en las siguientes carpetas y proyectos principales:
 
-## 📁 Estructura del repositorio
+1. **`level-up-html/`** (o equivalente)
+   * **Descripción:** Primera versión de **Level Up**, un e-commerce especializado en productos y artículos de computación e informática.
+   * **Tecnologías:** HTML5, CSS3 y diseño estructurado tradicional.
 
-- **Paginahtml/** → Versión del proyecto en HTML, CSS, Bootstrap y JavaScript.
-- **proyectonext/** → Versión del proyecto desarrollada con Next.js.
+2. **`level-up-react/`** (o equivalente)
+   * **Descripción:** Evolución y rediseño de la tienda **Level Up** migrada a componentes modernos.
+   * **Tecnologías:** React, JavaScript, Bootstrap y componentes modulares enfocados en la experiencia de usuario y rendimiento.
 
-### 📄 Archivos de la versión HTML
+3. **`evaluacion-formativa/`** (Dinobox)
+   * **Descripción:** **Dinobox**, plataforma web integral dedicada a la gestión, envío y seguimiento en tiempo real de encomiendas. Cuenta con barra de navegación personalizada, pantallas de inicio dinámicas (`Home`), módulos de registro de paquetes y control de estados.
+   * **Tecnologías:** Vite + React, React Router DOM, React-Bootstrap y estilos CSS personalizados con enfoque profesional.
 
-- **TIENDA.html** → Página principal y catálogo de productos.
-- **Nosotros.html** → Información sobre LevelUp.
-- **Sucursal.html** → Dirección, horarios y mapa de la sucursal.
-- **Contacto.html** → Formulario de contacto.
+---
 
-## 🛠️ Tecnologías utilizadas
+## ✨ Características Generales
 
-- HTML5
-- CSS3
-- Bootstrap
-- JavaScript
-- Next.js
-- React
+* **Evolución Tecnológica:** Demuestra la transición desde maquetación web estática (HTML/CSS) hasta arquitecturas basadas en componentes (React).
+* **Diseño UI/UX:** Interfaces limpias, uso de tarjetas con sombras tenues, efectos visuales de elevación (*hover*) y paletas de colores consistentes.
+* **Componentes Modulares:** Estructura limpia y código optimizado para facilitar el mantenimiento y la escalabilidad.
 
-## 🚀 Cómo ejecutar el proyecto
+---
 
-### Versión HTML
+## 🛠️ Guía de Ejecución Local
 
-No requiere instalación. Clona el repositorio y abre `TIENDA.html` en tu navegador:
+Para clonar y probar cualquiera de los proyectos en tu entorno local:
 
-```bash
-git clone https://github.com/Tetriko66/Pagina-web.git
-cd Pagina-web/Paginahtml
-```
-
-### Versión Next.js
-
-Requiere [Node.js](https://nodejs.org/) instalado:
-
-```bash
-git clone https://github.com/Tetriko66/Pagina-web.git
-cd Pagina-web/proyecto
-npm install
-npm run dev
-```
-
-Luego abre [http://localhost:3000](http://localhost:3000) en tu navegador.
-
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/Tetriko66/Web-Fullstack.git](https://github.com/Tetriko66/Web-Fullstack.git)
