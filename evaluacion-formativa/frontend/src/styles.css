@@ -1,0 +1,44 @@
+.footer-dinobox {
+  background-color: #16243b;
+  color: #e2e8f0;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.footer-dinobox small {
+  color: #94a3b8;
+}
+
+.tarjeta-estado {
+  border: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.tarjeta-estado.pasado {
+  background-color: #e9ecef;
+}
+
+.tarjeta-estado.actual {
+  background-color: #b7ebc6;
+}
+
+.icono-estado {
+  font-size: 1.8rem;
+  color: #0d6efd;
+}
+
+.tarjeta-estado.actual .icono-estado {
+  color: #1d6b3c;
+}
+
+.ubicacion {
+  color: #0d6efd;
+  font-style: italic;
+}
+
+.codigo-seguimiento {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #1d6b3c;
+}
